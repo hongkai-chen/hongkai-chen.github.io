@@ -1,0 +1,149 @@
+"SIGCOMM":
+  color: "#8d1b11"
+
+# ipsn
+"IPSN":
+  color: "#F9A620"
+
+# sensys
+"SenSys":
+  color: "#1C448E"
+  
+# mobicom
+"MobiCom":
+  color: "#BA2C73"
+
+# hotmobile
+"HotMobile":
+  color: "#2687DB"
+
+# mobisys
+"MobiSys":
+  color: "#f0c253"
+
+# mobisys
+"IoTDI":
+  color: "#459383"
+
+# mass
+"MASS":
+  color: "#e3314b"
+
+# imwut
+"IMWUT":
+  color: "#5eca8e"
+
+#
+"PerCom":
+  color: "#e46179"
+
+#
+"ICCCN":
+  color: "#408da9"
+
+#
+"SMARTCOMP":
+  color: "#274844"
+
+#
+"NEMS":
+  color: "#315a52"
+
+#
+"INFOCOM":
+  color: "#312770"
+
+#
+"CDC":
+  color: "#315a52"
+
+#
+"WFIOT":
+  color: "#f0d748"
+
+#
+"WiMob":
+  color: "#b3b24d"
+
+#
+"SECON":
+  color: "#ed7366"
+
+#
+"WiMob":
+  color: "#b3b24d"
+
+#
+"IWQoS":
+  color: "#61bb5a"
+
+#
+"RTSS":
+  color: "#774196"
+
+#
+"IGCC":
+  color: "#479eae"
+
+"RTAS":
+  color: "#f6c375"
+
+"MobiHoc":
+  color: "#877b68"
+
+"ICDCS":
+  color: "#336cb1"
+
+"EWSN":
+  color: "#133464"
+
+"ICNP":
+  color: "#4168e1"
+
+"NeurIPS":
+  color: "#4168e1"
+
+"DATE":
+  color: "#459383"
+
+"NSDI":
+  color: "#f6c375"
+
+"ICLR":
+  color: "#774196"
+
+
+ #journal
+
+"TOSN":
+  color: "#F9A620"
+
+"TCAD":
+  color: "#459383"
+
+"TON":
+  color: "#ecb13f"
+
+"SH":
+  color: "#62b7e2"
+
+"TCPS":
+  color: "#7cc5a7"
+
+"TMC":
+  color: "#1C448E"
+
+"TPDS":
+  color: "#312770"
+
+"SCS":
+  color: "#01009d"
+
+"TECS":
+  color: "#2687DB"
+
+"JSAC":
+  color: "#315a52"
+
+"UbiComp":
+  color: "#1C448E"

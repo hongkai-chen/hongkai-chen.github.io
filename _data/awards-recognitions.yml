@@ -1,0 +1,18 @@
+- title: Awards & Recognitions
+  type: time_table
+  contents:
+
+    - title: SenSys 2024 Best Demo Runner-up Award
+      year: 2024
+      description:
+        "Myotrainer: Muscle-Aware Motion Analysis and Feedback System for In-Home Resistance Training, Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems (SenSys)"
+
+    - title: MobiSys 2024 Best Demo Award
+      year: 2024
+      description:
+        "MuRa: A Scalable Mobile Ultra-wideband Testbed for Multi-node Ranging, The 22nd ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)"
+
+    - title: IPSN 2024 Best Demo Award
+      year: 2024
+      description:
+        "AD-CLIP: Privacy-Preserving, Low-Cost Synthetic Human Action Dataset for Alzheimer’s Patients via CLIP-based Models, The 23rd ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)"

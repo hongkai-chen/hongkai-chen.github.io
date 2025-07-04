@@ -1,0 +1,93 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+    {% for content in entry.contents %}
+      <li class="list-group-item" style="padding: 0.5rem 0.75rem;">
+        <div class="row">
+          {% if content.year %}
+              <div class="col-xs-1 cl-sm-1 col-md-1 text-center" style="margin-right:10px;">
+              <table class="table-cv">
+                <tbody>
+                  <tr>
+                    <td>
+                      <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">{{ content.year }}</span>
+                    </td>
+                  </tr>
+                  {% if content.location %}
+                  <tr>
+                    <td>
+                      <p class="location"><i class="fas fa-map-marker-alt iconlocation"></i> {{ content.location }}</p>
+                    </td>
+                  </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+          {% endif %}
+          <div class="card-membership col-xs-12 cl-sm-12 col-md-12 mt-2 mt-md-0" style="margin-top: 0.5rem!important">
+            <div class="ml-1 ml-md-4" style="display: flex; align-items: baseline;">
+              {% if content.title %}
+              <p class="title" style="margin: 0.2rem 0.5rem 0.2rem 0 !important; font-size: 0.9rem !important;">
+                <strong>{{content.title}}, </strong>
+                {% if content.description %}
+                {% for item in content.description %}
+                {{ item }}
+                {% endfor %}
+                {% endif %}
+              </p>
+              {% endif %}
+            </div>
+            {% if content.department or content.institution %}
+            <table class="table-cv ml-1 ml-md-4 institution">
+            <tbody>
+              {% if content.institution %}
+              <tr>
+                <td style="vertical-align: top; text-align: center;" class="institution"><i class="fas fa-university iconinstitution"></i></td>
+                <td class="institution">{{content.institution}}</td>
+              </tr>
+              {% endif %}
+              {% if content.department %}
+              <tr>
+                <td style="vertical-align: top; text-align: center;" class="department"><i class="far fa-dot-circle icondepartment"></i></td>
+                <td class="department">{{content.department}}</td>
+              </tr>
+              {% endif %}
+            </tbody>
+            </table>
+            {% endif %}
+            {% if content.items %}
+              <ul class="items">
+                {% for item in content.items %}
+                  <li>
+                    {% if item.contents %}
+                      <span class="item-title">{{ item.title }}</span>
+                      <ul class="subitems">
+                      {% for subitem in item.contents %}
+                        <li><span class="subitem">{{ subitem }}</span></li>
+                      {% endfor %}
+                      </ul>
+                    {% else %}
+                      <span class="item">{{ item }}</span>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+            {% if content.linkitems %}
+              <div class="container-links ml-1 ml-md-4">
+              {% for item in content.linkitems %}
+                  {% if item.link %}
+                    <div class="container-link-button">
+                      {% if item.linkname %}
+                        <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{{ item.linkname}}</a>
+                      {% else %}
+                        <a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">doc</a>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+              {% endfor %}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    </ul>
