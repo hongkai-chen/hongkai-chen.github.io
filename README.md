@@ -1,7 +1,7 @@
 # Quick Start
 
-1. Open https://github.dev/hongkai-chen/hongkai-chen.github.io
-2. Enjoy!
+   1. Open https://github.dev/hongkai-chen/hongkai-chen.github.io
+   2. Enjoy!
 
 ## Directory Structure
 
