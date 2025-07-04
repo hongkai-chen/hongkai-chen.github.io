@@ -1,7 +1,8 @@
 # Quick Start
-
-   1. Open https://github.dev/hongkai-chen/hongkai-chen.github.io
-   2. Enjoy!
+```
+1. Open https://github.dev/hongkai-chen/hongkai-chen.github.io
+2. Enjoy!
+```
 
 # Project Introduction
 ## Directory Structure
@@ -115,8 +116,10 @@ The main configuration file where you can set:
 ## Quick Start Guide
 
 1.1 **Edit use github.dev**
+   ```
    1. Open https://github.dev/hongkai-chen/hongkai-chen.github.io
    2. Enjoy!
+   ```
 
 1.2 **Local Development(ignore this part if using github.dev)**
    ```bash
