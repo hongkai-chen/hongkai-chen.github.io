@@ -39,6 +39,8 @@ The main configuration file where you can set:
 - Store BibTeX files here
 - Conference bib: `_bibliography/conference.bib`
 - Journal bib: `_bibliography/journal.bib`
+For publications: ![alt text](update_news.png)
+
 - Format citations according to BibTeX standards
 - After modification, **Commit & push**, then github aciton will auto-generates the pages
 ![alt text](github_code_spaces.png)
@@ -55,6 +57,8 @@ The main configuration file where you can set:
   title: News title
   ---
   ```
+For news: ![alt text](update_news.png)
+
 
 #### Other Pages (`_pages/`)
 - Create new pages here
