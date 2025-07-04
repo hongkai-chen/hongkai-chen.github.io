@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hongkai-chen.github.io/sitemap.xml
+Sitemap: https://hongkai-chen.github.io//sitemap.xml
