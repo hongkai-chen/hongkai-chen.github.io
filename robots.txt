@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://staff.ie.cuhk.edu.hk/chen-hongkai/# the base hostname & protocol for your site/chen-hongkai//sitemap.xml
+Sitemap: https://hongkai-chen.github.io# the base hostname & protocol for your site//sitemap.xml
