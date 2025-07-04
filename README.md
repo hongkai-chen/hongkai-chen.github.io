@@ -40,7 +40,7 @@ The main configuration file where you can set:
 - Conference bib: `_bibliography/conference.bib`
 - Journal bib: `_bibliography/journal.bib`
 - Format citations according to BibTeX standards
-- **After modification, Commit & push, then github aciton will auto-generates the pages **
+- After modification, **Commit & push**, then github aciton will auto-generates the pages
 ![alt text](github_code_spaces.png)
 
 #### News Items (`_news/`)
