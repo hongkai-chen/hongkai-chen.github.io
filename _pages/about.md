@@ -2,8 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Assistant Professor, <a href='https://www.ie.cuhk.edu.hk/'>Department of Information Engineering</a>
-title_2: 
+subtitle: Research Assistant Professor
+title_2: <a href='https://www.ie.cuhk.edu.hk/'>Department of Information Engineering</a>
 title_3: 
 institution: <a href='https://cuhk.edu.hk/'>The Chinese University of Hong Kong</a>
 email: hkchen [@] cuhk.edu.hk
