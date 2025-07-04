@@ -37,9 +37,10 @@ The main configuration file where you can set:
 
 ### Publications (`_bibliography/`)
 - Store BibTeX files here
-- Default file: `papers.bib`
+- Conference bib: `_bibliography/conference.bib`
+- Journal bib: `_bibliography/journal.bib`
 - Format citations according to BibTeX standards
-- Auto-generates publication page
+- Commit & push, then github aciton will auto-generates the pages
 
 #### News Items (`_news/`)
 - Short announcements
