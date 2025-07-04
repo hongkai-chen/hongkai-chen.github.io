@@ -1,6 +1,6 @@
 # Quick Start
 ```
-1. Open https://github.dev/hongkai-chen/hongkai-chen.github.io
+1. [Github Code Spases] Open https://github.dev/hongkai-chen/hongkai-chen.github.io
 2. Enjoy!
 ```
 
@@ -40,7 +40,8 @@ The main configuration file where you can set:
 - Conference bib: `_bibliography/conference.bib`
 - Journal bib: `_bibliography/journal.bib`
 - Format citations according to BibTeX standards
-- Commit & push, then github aciton will auto-generates the pages
+- **After modification, Commit & push, then github aciton will auto-generates the pages **
+![alt text](github_code_spaces.png.png)
 
 #### News Items (`_news/`)
 - Short announcements
