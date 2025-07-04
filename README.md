@@ -1,6 +1,4 @@
-# Al-folio Website Template Guide
-
-Quick start guide for al-folio
+# Quick Start
 
 ## Directory Structure
 
