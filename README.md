@@ -3,6 +3,7 @@
    1. Open https://github.dev/hongkai-chen/hongkai-chen.github.io
    2. Enjoy!
 
+# Project Introduction
 ## Directory Structure
 
 ```
